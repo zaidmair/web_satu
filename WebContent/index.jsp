@@ -17,6 +17,22 @@ halo <% out.print("zaid");%>
 
 %>
 perhitungan dari a + b + c adalah <%=a %>*<%=b %>=<%=c %>
+<hr/>
+<table border="1" >
+<tr>
+	<td>no	</td>
+	<td>nama</td>
+</tr>
+<%
+for(int i = 1 ; i < 10; i++)
+{
+%>
+	<td><%=i %></td>
+	<td>nama siswa</td>
+</tr>
+<% 
+} %> 
+</table>
 
 </body>
 </html>
